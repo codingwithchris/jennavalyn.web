@@ -1,23 +1,59 @@
 {
   "name": "jenna-valyn-website",
+  "description": "Jenna Valyn's Official Website",
   "version": "1.0.0",
-  "private": true,
-  "description": "Jenna Valyn - Website",
-  "author": "Chris Hahn",
+  "author": "Chris Hahn <chris@chrishahn.me>",
   "keywords": [
-    "gatsby"
+    "jenna valyn",
+    "jenna burnette",
+    "nerve theatre"
   ],
+  "engines": {
+    "node": ">=15.11.0"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@linaria/babel-preset": "^3.0.0-beta.1",
+    "@linaria/core": "^3.0.0-beta.1",
+    "@linaria/react": "^3.0.0-beta.1",
+    "@linaria/shaker": "^3.0.0-beta.1",
     "gatsby": "^3.2.1",
+    "gatsby-plugin-image": "^1.2.1",
+    "gatsby-plugin-linaria": "^2.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
+    "gatsby-plugin-react-helmet": "^4.2.0",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-sharp": "^3.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@codingwithchris/eslint-config": "^1.2.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
   }
 }

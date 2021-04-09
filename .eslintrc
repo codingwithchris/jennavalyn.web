@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "@codingwithchris/eslint-config/vanilla-react"
+    ]
+}
